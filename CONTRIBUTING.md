@@ -68,6 +68,8 @@ Make your changes, test them locally (see above), then push that branch up to `o
 7. Take a break - you've earned it!
 8. When a commit is merged to `master` on GitHub (ideally via a PR reviewed by at least one other person), `Netlify` (a build tool) will automatically build the site and publish it to [http://www.devopsdays.org](http://www.devopsdays.org).
 
+> Note: You may have to wait for edge caches to be updated before viewing your changes!
+
 ### Guidelines
 
 1. Code changes that affect the overall site will be merged only in the [devopsdays-theme](https://github.com/devopsdays/devopsdays-theme) repo. Theme changes should be made there, and when released, will be used in this repo.
